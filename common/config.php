@@ -1,6 +1,6 @@
 <?php
 	session_start();
-	require "../vendor/autoload.php";
+	require "../view/vendor/autoload.php";
 	//echo '<br>I am inside config<br>';
 	$gClient = new Google_Client();
 	$gClient->setClientId("541050038364-6pa0t5c9kdfa8dkqlhuub213bk3qc5pp.apps.googleusercontent.com");
